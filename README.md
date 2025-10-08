@@ -2,6 +2,8 @@
 Plataforma white-label de opções binárias (BO): Next.js + FastAPI, autenticação Supabase. Conta DEMO/REAL, KYC com upload, preços em tempo real, abertura/fechamento de posições e painel admin. Pagamentos via XGate (depósito PIX e saques PIX/crypto) com webhooks. Pronta para deploy.
 
 
+Plataforma BO white-label pronta para venda. CORE sólido: captura de candles em tempo real, motor de compra/venda e regras de depósito/saque (PIX e crypto) com webhooks. Já operando em live. Interessados, entre em contato por Issues ou em [https://t.me/reactdavicastro]
+
 # BUNISESS — Broker White Label (BO)
 IMAGENS NO FIM
 Plataforma de **opções binárias (BO)** com painel do trader, conta **DEMO/REAL**, **KYC**, **depósitos PIX/saques** (XGate), **admin** (ativos/payouts/usuários/transações) e **preços em tempo-real**.
