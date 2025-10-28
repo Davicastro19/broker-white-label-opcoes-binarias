@@ -86,6 +86,7 @@ Secrets: nunca enviar keys ao frontend.
 <img width="1916" height="899" alt="Captura de tela 2025-10-08 165334" src="https://github.com/user-attachments/assets/d5bb152c-b94a-4023-8df1-e896fde6a677" />
 <img width="1912" height="906" alt="Captura de tela 2025-10-08 165318" src="https://github.com/user-attachments/assets/4a502223-fb33-4cce-b2b2-28bc6d8cf70b" />
 <img width="1916" height="904" alt="Captura de tela 2025-10-08 165306" src="https://github.com/user-attachments/assets/20ed9ecb-12bc-43a7-8638-7c6f5db1eb97" />
+<img width="1010" height="474" alt="Captura de tela 2025-10-28 051501" src="https://github.com/user-attachments/assets/4761c17b-1acf-46f0-8213-ca377df47d41" />
 
 <img width="417" height="339" alt="Captura de tela 2025-10-08 165212" src="https://github.com/user-attachments/assets/42d6352f-be9a-416e-b5ee-afac62747ced" />
 <img width="1916" height="895" alt="Captura de tela 2025-10-08 165200" src="https://github.com/user-attachments/assets/8a2f5a9b-8dd7-46c0-8957-0b20bb155f87" />
