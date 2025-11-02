@@ -4,7 +4,7 @@ Plataforma white-label de opções binárias (BO): Next.js + FastAPI, autentica�
 
 Plataforma BO white-label pronta para venda. CORE sólido: captura de candles em tempo real, motor de compra/venda, **gestão de afiliados** e regras de depósito/saque (PIX e crypto) com webhooks.  
 Já operando em live.  
-Interessados, entre em contato por Issues ou em [https://t.me/reactdavicastro]
+Interessados, entre em contato por [https://api.whatsapp.com/send?phone=5511977476664] ou em [https://t.me/reactdavicastro]
 
 ---
 
@@ -12,7 +12,6 @@ Interessados, entre em contato por Issues ou em [https://t.me/reactdavicastro]
 IMAGENS NO FIM  
 Plataforma de **opções binárias (BO)** com painel do trader, conta **DEMO/REAL**, **KYC**, **depósitos PIX/saques** (XGate), **admin** (ativos/payouts/usuários/transações), **preços em tempo-real** e **módulo de afiliados integrado**.
 
-> Monorepo: **Next.js (frontend)** + **FastAPI (backend)** + **worker de fechamento**.
 
 ---
 
@@ -20,7 +19,7 @@ Plataforma de **opções binárias (BO)** com painel do trader, conta **DEMO/REA
 
 ### 💹 Trading BO
 - Compra **CALL/PUT** com duração configurável (1m, 5m, 15m, 1h).
-- Payout por timeframe (M1 / M5 / …).
+- Payout por timeframe (M1 / M5 / M15)
 - Conta **DEMO** e **REAL** alternáveis no app.
 - Fechamento automático por **worker**.
 
@@ -51,36 +50,30 @@ Plataforma de **opções binárias (BO)** com painel do trader, conta **DEMO/REA
 
 #### 🎯 Visão geral
 Módulo nativo de **afiliados** totalmente integrado ao núcleo da corretora.  
-Permite a criação de redes de afiliados com **1º e 2º nível**, comissão automática, e controle de desempenho em tempo real.
+Permite a criação de redes de afiliados, comissão automática, e controle de desempenho em tempo real.
 
 #### ⚙️ Funcionalidades principais
 - Geração automática de **links de afiliação únicos** por usuário.
-- Suporte a **subafiliados (2 níveis)**.
 - Painel visual completo:
   - Total de afiliados ativos/inativos.
   - Volume negociado por afiliado.
   - Lucro da corretora por rede.
   - **Comissão pendente / liberada**.
 - Relatórios filtráveis por **data, ativo, tipo de conta (DEMO/REAL)**.
-- Pagamento automático ou manual de comissões.
 - Cálculo baseado em **lucro da corretora (Revenue Share)** ou **volume (Turnover)**.
 - Dashboard administrativo com rede hierárquica e gráficos de desempenho.
 - Pagamento de comissões via **PIX (XGate)** com webhooks dedicados.
 
 #### 📊 Modelos de comissão
 - **Revenue Share** — percentual sobre o lucro líquido da corretora.  
-- **Turnover** — percentual sobre o volume total negociado.  
+- **Turnover** — percentual sobre o volume total negociado na perda.  
 - Configuração dos percentuais feita diretamente pelo **Admin**.
 
-#### 🧾 Extras
-- API pública `/affiliates/*` para integração externa.
-- Exportação CSV/Excel.
-- Log detalhado de referências (IP, device, data/hora, navegador).
 
 ---
 
 ### ⚙️ Admin
-- Gerenciamento de **ativos** (símbolo, nome, payout M1/M5, ativar/desativar).
+- Gerenciamento de **ativos** (símbolo, nome, payout M1/M5/M15, ativar/desativar).
 - Gerenciamento de **usuários** (aprovação KYC, PnL individual).
 - Controle de **transações** (status, totais, últimas entradas/saídas).
 - KPIs:
@@ -89,7 +82,6 @@ Permite a criação de redes de afiliados com **1º e 2º nível**, comissão au
   - PnL da corretora
   - Ativos listados
 - Módulo **Afiliados**:
-  - Rede hierárquica (árvore de níveis)
   - Totais de comissão e pagamento manual
   - Histórico de transferências e registros de comissão
 
@@ -106,15 +98,15 @@ Permite a criação de redes de afiliados com **1º e 2º nível**, comissão au
 **Backend:** FastAPI, SQLAlchemy, PostgreSQL  
 **Auth:** Supabase (JWT)  
 **Pagamentos:** XGate (PIX e Crypto)  
-**Infraestrutura:** Docker, Nginx, PM2  
-**Afiliados:** Sistema nativo com painel e API pública.
+**Infraestrutura:** Docker, Nginx, PM2 ou digitalocean e vercel ou qqualquer uma na verdade  
+
 
 ---
 
 ### 1️⃣ Systema
-- Node 18+ (recomendado 20)
-- Python 3.11/3.12
-- PostgreSQL 14+
+- Node 
+- Python 
+- PostgreSQL 
 - Conta **Supabase** (Auth/JWT)
 - Conta **XGate** (API Key, PIX habilitado para depósitos e saques)
 
