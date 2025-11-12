@@ -1,5 +1,10 @@
 # broker-white-label-opcoes-binarias
 
+
+Acesse o grupo e consigo o código disponivel por R$ 1.500,00
+[https://t.me/+TpTbG3bUZNhjYmMx]
+
+
 Plataforma white-label de opções binárias (BO): Next.js + FastAPI, autenticação Supabase. Conta DEMO/REAL, KYC com upload, preços em tempo real, abertura/fechamento de posições, **sistema de afiliados**, e painel admin. Pagamentos via XGate (depósito PIX e saques PIX/crypto) com webhooks. Pronta para deploy.
 
 Plataforma BO white-label pronta para venda. CORE sólido: captura de candles em tempo real, motor de compra/venda, **gestão de afiliados** e regras de depósito/saque (PIX e crypto) com webhooks.  
